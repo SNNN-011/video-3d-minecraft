@@ -1,0 +1,921 @@
+{
+  "generatedAt": "2026-11-08T03:10:20.381Z",
+  "model": "heygen/heygen-voice-1-turbo:free",
+  "voice": "bram",
+  "lines": [
+    {
+      "id": "hook-1",
+      "text": "BMW S1000RR di luar negeri, tiga ratus delapan puluh juta.",
+      "ms": 4542,
+      "frames": 137,
+      "words": [
+        {
+          "w": "BMW",
+          "from": 90,
+          "to": 359
+        },
+        {
+          "w": "S1000RR",
+          "from": 359,
+          "to": 896
+        },
+        {
+          "w": "di",
+          "from": 896,
+          "to": 1097
+        },
+        {
+          "w": "luar",
+          "from": 1097,
+          "to": 1433
+        },
+        {
+          "w": "negeri,",
+          "from": 1433,
+          "to": 2071
+        },
+        {
+          "w": "tiga",
+          "from": 2071,
+          "to": 2407
+        },
+        {
+          "w": "ratus",
+          "from": 2407,
+          "to": 2810
+        },
+        {
+          "w": "delapan",
+          "from": 2810,
+          "to": 3347
+        },
+        {
+          "w": "puluh",
+          "from": 3347,
+          "to": 3750
+        },
+        {
+          "w": "juta.",
+          "from": 3750,
+          "to": 4422
+        }
+      ]
+    },
+    {
+      "id": "hook-2",
+      "text": "Kalau di Indonesia?",
+      "ms": 1043,
+      "frames": 32,
+      "words": [
+        {
+          "w": "Kalau",
+          "from": 42,
+          "to": 279
+        },
+        {
+          "w": "di",
+          "from": 279,
+          "to": 398
+        },
+        {
+          "w": "Indonesia?",
+          "from": 398,
+          "to": 991
+        }
+      ]
+    },
+    {
+      "id": "hook-3",
+      "text": "Satu miliar dua ratus juta lebih!",
+      "ms": 2737,
+      "frames": 83,
+      "words": [
+        {
+          "w": "Satu",
+          "from": 90,
+          "to": 423
+        },
+        {
+          "w": "miliar",
+          "from": 423,
+          "to": 888
+        },
+        {
+          "w": "dua",
+          "from": 888,
+          "to": 1154
+        },
+        {
+          "w": "ratus",
+          "from": 1154,
+          "to": 1553
+        },
+        {
+          "w": "juta",
+          "from": 1553,
+          "to": 1886
+        },
+        {
+          "w": "lebih!",
+          "from": 1886,
+          "to": 2617
+        }
+      ]
+    },
+    {
+      "id": "hook-4",
+      "text": "Serius?!",
+      "ms": 928,
+      "frames": 28,
+      "words": [
+        {
+          "w": "Serius?!",
+          "from": 37,
+          "to": 881
+        }
+      ]
+    },
+    {
+      "id": "s1000rr-name",
+      "text": "BMW S1000RR.",
+      "ms": 1703,
+      "frames": 52,
+      "words": [
+        {
+          "w": "BMW",
+          "from": 68,
+          "to": 433
+        },
+        {
+          "w": "S1000RR.",
+          "from": 433,
+          "to": 1618
+        }
+      ]
+    },
+    {
+      "id": "s1000rr-abroad",
+      "text": "Di luar negeri, tiga ratus delapan puluh juta.",
+      "ms": 2968,
+      "frames": 90,
+      "words": [
+        {
+          "w": "Di",
+          "from": 90,
+          "to": 248
+        },
+        {
+          "w": "luar",
+          "from": 248,
+          "to": 510
+        },
+        {
+          "w": "negeri,",
+          "from": 510,
+          "to": 1009
+        },
+        {
+          "w": "tiga",
+          "from": 1009,
+          "to": 1272
+        },
+        {
+          "w": "ratus",
+          "from": 1272,
+          "to": 1587
+        },
+        {
+          "w": "delapan",
+          "from": 1587,
+          "to": 2007
+        },
+        {
+          "w": "puluh",
+          "from": 2007,
+          "to": 2323
+        },
+        {
+          "w": "juta.",
+          "from": 2323,
+          "to": 2848
+        }
+      ]
+    },
+    {
+      "id": "s1000rr-indo",
+      "text": "Di Indonesia, satu miliar dua ratus tiga puluh tujuh juta.",
+      "ms": 4105,
+      "frames": 124,
+      "words": [
+        {
+          "w": "Di",
+          "from": 90,
+          "to": 271
+        },
+        {
+          "w": "Indonesia,",
+          "from": 271,
+          "to": 1026
+        },
+        {
+          "w": "satu",
+          "from": 1026,
+          "to": 1328
+        },
+        {
+          "w": "miliar",
+          "from": 1328,
+          "to": 1751
+        },
+        {
+          "w": "dua",
+          "from": 1751,
+          "to": 1992
+        },
+        {
+          "w": "ratus",
+          "from": 1992,
+          "to": 2355
+        },
+        {
+          "w": "tiga",
+          "from": 2355,
+          "to": 2657
+        },
+        {
+          "w": "puluh",
+          "from": 2657,
+          "to": 3019
+        },
+        {
+          "w": "tujuh",
+          "from": 3019,
+          "to": 3382
+        },
+        {
+          "w": "juta.",
+          "from": 3382,
+          "to": 3985
+        }
+      ]
+    },
+    {
+      "id": "r1-name",
+      "text": "Yamaha R1.",
+      "ms": 1232,
+      "frames": 37,
+      "words": [
+        {
+          "w": "Yamaha",
+          "from": 49,
+          "to": 572
+        },
+        {
+          "w": "R1.",
+          "from": 572,
+          "to": 1170
+        }
+      ]
+    },
+    {
+      "id": "r1-abroad",
+      "text": "Di luar negeri, tiga ratus enam puluh dua juta.",
+      "ms": 3873,
+      "frames": 117,
+      "words": [
+        {
+          "w": "Di",
+          "from": 90,
+          "to": 295
+        },
+        {
+          "w": "luar",
+          "from": 295,
+          "to": 638
+        },
+        {
+          "w": "negeri,",
+          "from": 638,
+          "to": 1288
+        },
+        {
+          "w": "tiga",
+          "from": 1288,
+          "to": 1630
+        },
+        {
+          "w": "ratus",
+          "from": 1630,
+          "to": 2041
+        },
+        {
+          "w": "enam",
+          "from": 2041,
+          "to": 2383
+        },
+        {
+          "w": "puluh",
+          "from": 2383,
+          "to": 2794
+        },
+        {
+          "w": "dua",
+          "from": 2794,
+          "to": 3068
+        },
+        {
+          "w": "juta.",
+          "from": 3068,
+          "to": 3753
+        }
+      ]
+    },
+    {
+      "id": "r1-indo",
+      "text": "Di Indonesia, enam ratus lima juta.",
+      "ms": 2703,
+      "frames": 82,
+      "words": [
+        {
+          "w": "Di",
+          "from": 90,
+          "to": 270
+        },
+        {
+          "w": "Indonesia,",
+          "from": 270,
+          "to": 1021
+        },
+        {
+          "w": "enam",
+          "from": 1021,
+          "to": 1321
+        },
+        {
+          "w": "ratus",
+          "from": 1321,
+          "to": 1682
+        },
+        {
+          "w": "lima",
+          "from": 1682,
+          "to": 1982
+        },
+        {
+          "w": "juta.",
+          "from": 1982,
+          "to": 2583
+        }
+      ]
+    },
+    {
+      "id": "v4-name",
+      "text": "Ducati Panigale V4 S.",
+      "ms": 2222,
+      "frames": 67,
+      "words": [
+        {
+          "w": "Ducati",
+          "from": 89,
+          "to": 633
+        },
+        {
+          "w": "Panigale",
+          "from": 633,
+          "to": 1333
+        },
+        {
+          "w": "V4",
+          "from": 1333,
+          "to": 1567
+        },
+        {
+          "w": "S.",
+          "from": 1567,
+          "to": 2111
+        }
+      ]
+    },
+    {
+      "id": "v4-abroad",
+      "text": "Di luar negeri, enam ratus tujuh puluh lima juta.",
+      "ms": 3100,
+      "frames": 93,
+      "words": [
+        {
+          "w": "Di",
+          "from": 90,
+          "to": 246
+        },
+        {
+          "w": "luar",
+          "from": 246,
+          "to": 507
+        },
+        {
+          "w": "negeri,",
+          "from": 507,
+          "to": 1001
+        },
+        {
+          "w": "enam",
+          "from": 1001,
+          "to": 1261
+        },
+        {
+          "w": "ratus",
+          "from": 1261,
+          "to": 1574
+        },
+        {
+          "w": "tujuh",
+          "from": 1574,
+          "to": 1886
+        },
+        {
+          "w": "puluh",
+          "from": 1886,
+          "to": 2199
+        },
+        {
+          "w": "lima",
+          "from": 2199,
+          "to": 2459
+        },
+        {
+          "w": "juta.",
+          "from": 2459,
+          "to": 2980
+        }
+      ]
+    },
+    {
+      "id": "v4-indo",
+      "text": "Di Indonesia, satu miliar dua ratus sembilan puluh tujuh juta.",
+      "ms": 3944,
+      "frames": 119,
+      "words": [
+        {
+          "w": "Di",
+          "from": 90,
+          "to": 254
+        },
+        {
+          "w": "Indonesia,",
+          "from": 254,
+          "to": 935
+        },
+        {
+          "w": "satu",
+          "from": 935,
+          "to": 1207
+        },
+        {
+          "w": "miliar",
+          "from": 1207,
+          "to": 1589
+        },
+        {
+          "w": "dua",
+          "from": 1589,
+          "to": 1807
+        },
+        {
+          "w": "ratus",
+          "from": 1807,
+          "to": 2134
+        },
+        {
+          "w": "sembilan",
+          "from": 2134,
+          "to": 2625
+        },
+        {
+          "w": "puluh",
+          "from": 2625,
+          "to": 2952
+        },
+        {
+          "w": "tujuh",
+          "from": 2952,
+          "to": 3279
+        },
+        {
+          "w": "juta.",
+          "from": 3279,
+          "to": 3824
+        }
+      ]
+    },
+    {
+      "id": "h2-name",
+      "text": "Kawasaki Ninja H2.",
+      "ms": 1805,
+      "frames": 55,
+      "words": [
+        {
+          "w": "Kawasaki",
+          "from": 72,
+          "to": 715
+        },
+        {
+          "w": "Ninja",
+          "from": 715,
+          "to": 1143
+        },
+        {
+          "w": "H2.",
+          "from": 1143,
+          "to": 1715
+        }
+      ]
+    },
+    {
+      "id": "h2-abroad",
+      "text": "Di luar negeri, enam ratus tiga puluh delapan juta.",
+      "ms": 3499,
+      "frames": 105,
+      "words": [
+        {
+          "w": "Di",
+          "from": 90,
+          "to": 262
+        },
+        {
+          "w": "luar",
+          "from": 262,
+          "to": 548
+        },
+        {
+          "w": "negeri,",
+          "from": 548,
+          "to": 1091
+        },
+        {
+          "w": "enam",
+          "from": 1091,
+          "to": 1377
+        },
+        {
+          "w": "ratus",
+          "from": 1377,
+          "to": 1720
+        },
+        {
+          "w": "tiga",
+          "from": 1720,
+          "to": 2006
+        },
+        {
+          "w": "puluh",
+          "from": 2006,
+          "to": 2349
+        },
+        {
+          "w": "delapan",
+          "from": 2349,
+          "to": 2807
+        },
+        {
+          "w": "juta.",
+          "from": 2807,
+          "to": 3379
+        }
+      ]
+    },
+    {
+      "id": "h2-indo",
+      "text": "Di Indonesia, delapan ratus tujuh puluh tiga juta.",
+      "ms": 3289,
+      "frames": 99,
+      "words": [
+        {
+          "w": "Di",
+          "from": 90,
+          "to": 254
+        },
+        {
+          "w": "Indonesia,",
+          "from": 254,
+          "to": 935
+        },
+        {
+          "w": "delapan",
+          "from": 935,
+          "to": 1371
+        },
+        {
+          "w": "ratus",
+          "from": 1371,
+          "to": 1698
+        },
+        {
+          "w": "tujuh",
+          "from": 1698,
+          "to": 2025
+        },
+        {
+          "w": "puluh",
+          "from": 2025,
+          "to": 2352
+        },
+        {
+          "w": "tiga",
+          "from": 2352,
+          "to": 2624
+        },
+        {
+          "w": "juta.",
+          "from": 2624,
+          "to": 3169
+        }
+      ]
+    },
+    {
+      "id": "tax-1",
+      "text": "Kenapa bisa segini?",
+      "ms": 1047,
+      "frames": 32,
+      "words": [
+        {
+          "w": "Kenapa",
+          "from": 42,
+          "to": 320
+        },
+        {
+          "w": "bisa",
+          "from": 320,
+          "to": 518
+        },
+        {
+          "w": "segini?",
+          "from": 518,
+          "to": 994
+        }
+      ]
+    },
+    {
+      "id": "tax-bm",
+      "text": "Bea masuk.",
+      "ms": 802,
+      "frames": 25,
+      "words": [
+        {
+          "w": "Bea",
+          "from": 32,
+          "to": 227
+        },
+        {
+          "w": "masuk.",
+          "from": 227,
+          "to": 762
+        }
+      ]
+    },
+    {
+      "id": "tax-ppnbm",
+      "text": "PPnBM.",
+      "ms": 889,
+      "frames": 27,
+      "words": [
+        {
+          "w": "PPnBM.",
+          "from": 36,
+          "to": 844
+        }
+      ]
+    },
+    {
+      "id": "tax-ppn",
+      "text": "PPN.",
+      "ms": 697,
+      "frames": 21,
+      "words": [
+        {
+          "w": "PPN.",
+          "from": 28,
+          "to": 662
+        }
+      ]
+    },
+    {
+      "id": "tax-pph",
+      "text": "PPh impor.",
+      "ms": 838,
+      "frames": 26,
+      "words": [
+        {
+          "w": "PPh",
+          "from": 34,
+          "to": 237
+        },
+        {
+          "w": "impor.",
+          "from": 237,
+          "to": 796
+        }
+      ]
+    },
+    {
+      "id": "tax-bbn",
+      "text": "BBN dan admin dealer.",
+      "ms": 1825,
+      "frames": 55,
+      "words": [
+        {
+          "w": "BBN",
+          "from": 73,
+          "to": 329
+        },
+        {
+          "w": "dan",
+          "from": 329,
+          "to": 584
+        },
+        {
+          "w": "admin",
+          "from": 584,
+          "to": 967
+        },
+        {
+          "w": "dealer.",
+          "from": 967,
+          "to": 1734
+        }
+      ]
+    },
+    {
+      "id": "tax-total",
+      "text": "Totalnya satu miliar dua ratus juta lebih. Buat satu motor.",
+      "ms": 4796,
+      "frames": 144,
+      "words": [
+        {
+          "w": "Totalnya",
+          "from": 90,
+          "to": 697
+        },
+        {
+          "w": "satu",
+          "from": 697,
+          "to": 1034
+        },
+        {
+          "w": "miliar",
+          "from": 1034,
+          "to": 1506
+        },
+        {
+          "w": "dua",
+          "from": 1506,
+          "to": 1776
+        },
+        {
+          "w": "ratus",
+          "from": 1776,
+          "to": 2181
+        },
+        {
+          "w": "juta",
+          "from": 2181,
+          "to": 2518
+        },
+        {
+          "w": "lebih.",
+          "from": 2518,
+          "to": 3260
+        },
+        {
+          "w": "Buat",
+          "from": 3260,
+          "to": 3597
+        },
+        {
+          "w": "satu",
+          "from": 3597,
+          "to": 3934
+        },
+        {
+          "w": "motor.",
+          "from": 3934,
+          "to": 4676
+        }
+      ]
+    },
+    {
+      "id": "outro-1",
+      "text": "Motor seribu cc,",
+      "ms": 1428,
+      "frames": 43,
+      "words": [
+        {
+          "w": "Motor",
+          "from": 57,
+          "to": 479
+        },
+        {
+          "w": "seribu",
+          "from": 479,
+          "to": 970
+        },
+        {
+          "w": "cc,",
+          "from": 970,
+          "to": 1357
+        }
+      ]
+    },
+    {
+      "id": "outro-2",
+      "text": "dianggap barang mewah?",
+      "ms": 1266,
+      "frames": 38,
+      "words": [
+        {
+          "w": "dianggap",
+          "from": 51,
+          "to": 435
+        },
+        {
+          "w": "barang",
+          "from": 435,
+          "to": 733
+        },
+        {
+          "w": "mewah?",
+          "from": 733,
+          "to": 1203
+        }
+      ]
+    },
+    {
+      "id": "outro-3",
+      "text": "Menurut kamu wajar nggak?",
+      "ms": 1210,
+      "frames": 37,
+      "words": [
+        {
+          "w": "Menurut",
+          "from": 48,
+          "to": 342
+        },
+        {
+          "w": "kamu",
+          "from": 342,
+          "to": 526
+        },
+        {
+          "w": "wajar",
+          "from": 526,
+          "to": 746
+        },
+        {
+          "w": "nggak?",
+          "from": 746,
+          "to": 1149
+        }
+      ]
+    },
+    {
+      "id": "outro-4",
+      "text": "Komen di bawah,",
+      "ms": 873,
+      "frames": 27,
+      "words": [
+        {
+          "w": "Komen",
+          "from": 35,
+          "to": 307
+        },
+        {
+          "w": "di",
+          "from": 307,
+          "to": 443
+        },
+        {
+          "w": "bawah,",
+          "from": 443,
+          "to": 829
+        }
+      ]
+    },
+    {
+      "id": "outro-5",
+      "text": "terus follow!",
+      "ms": 714,
+      "frames": 22,
+      "words": [
+        {
+          "w": "terus",
+          "from": 29,
+          "to": 245
+        },
+        {
+          "w": "follow!",
+          "from": 245,
+          "to": 678
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "pajak-motor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render PajakMotor out/pajak-motor.mp4",
+    "sfx": "node scripts/gen-sfx.mjs",
+    "voice": "node scripts/gen-voice.mjs",
+    "voice:force": "node scripts/gen-voice.mjs --force"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/cli": "4.0.541",
+    "@remotion/google-fonts": "4.0.541",
+    "@remotion/three": "4.0.541",
+    "@types/react": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "4.0.541",
+    "three": "^0.187.0",
+    "typescript": "^7.0.2"
+  }
+}

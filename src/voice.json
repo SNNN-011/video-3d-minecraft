@@ -1,0 +1,41 @@
+{
+  "model": "heygen/heygen-voice-1-turbo:free",
+  "voice": "bram",
+  "language": "id",
+  "lines": [
+    { "id": "hook-1", "scene": "hook", "at": 4, "text": "BMW S1000RR di luar negeri, tiga ratus delapan puluh juta." },
+    { "id": "hook-2", "scene": "hook", "at": 52, "text": "Kalau di Indonesia?" },
+    { "id": "hook-3", "scene": "hook", "at": 92, "text": "Satu miliar dua ratus juta lebih!" },
+    { "id": "hook-4", "scene": "hook", "at": 92, "text": "Serius?!" },
+
+    { "id": "s1000rr-name", "scene": "s1000rr", "at": 14, "text": "BMW S1000RR." },
+    { "id": "s1000rr-abroad", "scene": "s1000rr", "at": 26, "text": "Di luar negeri, tiga ratus delapan puluh juta." },
+    { "id": "s1000rr-indo", "scene": "s1000rr", "at": 60, "text": "Di Indonesia, satu miliar dua ratus tiga puluh tujuh juta." },
+
+    { "id": "r1-name", "scene": "r1", "at": 14, "text": "Yamaha R1." },
+    { "id": "r1-abroad", "scene": "r1", "at": 26, "text": "Di luar negeri, tiga ratus enam puluh dua juta." },
+    { "id": "r1-indo", "scene": "r1", "at": 60, "text": "Di Indonesia, enam ratus lima juta." },
+
+    { "id": "v4-name", "scene": "v4", "at": 14, "text": "Ducati Panigale V4 S." },
+    { "id": "v4-abroad", "scene": "v4", "at": 26, "text": "Di luar negeri, enam ratus tujuh puluh lima juta." },
+    { "id": "v4-indo", "scene": "v4", "at": 60, "text": "Di Indonesia, satu miliar dua ratus sembilan puluh tujuh juta." },
+
+    { "id": "h2-name", "scene": "h2", "at": 14, "text": "Kawasaki Ninja H2." },
+    { "id": "h2-abroad", "scene": "h2", "at": 26, "text": "Di luar negeri, enam ratus tiga puluh delapan juta." },
+    { "id": "h2-indo", "scene": "h2", "at": 60, "text": "Di Indonesia, delapan ratus tujuh puluh tiga juta." },
+
+    { "id": "tax-1", "scene": "tax", "at": 4, "text": "Kenapa bisa segini?" },
+    { "id": "tax-bm", "scene": "tax", "at": 30, "text": "Bea masuk." },
+    { "id": "tax-ppnbm", "scene": "tax", "at": 56, "text": "PPnBM." },
+    { "id": "tax-ppn", "scene": "tax", "at": 82, "text": "PPN." },
+    { "id": "tax-pph", "scene": "tax", "at": 108, "text": "PPh impor." },
+    { "id": "tax-bbn", "scene": "tax", "at": 134, "text": "BBN dan admin dealer." },
+    { "id": "tax-total", "scene": "tax", "at": 206, "text": "Totalnya satu miliar dua ratus juta lebih. Buat satu motor." },
+
+    { "id": "outro-1", "scene": "outro", "at": 4, "text": "Motor seribu cc," },
+    { "id": "outro-2", "scene": "outro", "at": 30, "text": "dianggap barang mewah?" },
+    { "id": "outro-3", "scene": "outro", "at": 56, "text": "Menurut kamu wajar nggak?" },
+    { "id": "outro-4", "scene": "outro", "at": 82, "text": "Komen di bawah," },
+    { "id": "outro-5", "scene": "outro", "at": 82, "text": "terus follow!" }
+  ]
+}
