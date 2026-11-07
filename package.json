@@ -6,6 +6,7 @@
   "scripts": {
     "studio": "remotion studio",
     "render": "remotion render PajakMotor out/pajak-motor.mp4 --timeout=60000",
+    "render:ai": "remotion render AiPlayground out/ai-playground.mp4 --timeout=60000",
     "still": "remotion still PajakMotor out/still.png --timeout=60000",
     "sfx": "node scripts/gen-sfx.mjs",
     "voice": "node scripts/gen-voice.mjs",

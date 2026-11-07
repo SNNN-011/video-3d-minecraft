@@ -12,7 +12,7 @@ Panduan kerja teknis. Aturan gaya ada di `STYLES.md`, aturan kerja agen ada di `
 - Video vertikal 1080x1920, 30 fps, H.264 + AAC, durasi **ditentukan durasi narasi** (bukan angka tetap).
 - Satu repo = banyak episode. Tiap episode punya komposisi sendiri, dirender dari root yang sama.
 - Episode aktif: `PajakMotor` → `out/pajak-motor.mp4` (73,63 detik, 2209 frame) — 4 motor, hitungan pajak, outro CTA.
-- Episode draft: `AiPlayground` — aset visualnya sudah jadi milik `src/core/`, belum ada narasi.
+- Episode aktif tanpa narasi: `AiPlayground` → `out/ai-playground.mp4` (75 detik, 2250 frame) — timing masih hardcode, TTS menyusul.
 - Semua audio dan subtitle di-generate, bukan dicari di internet.
 
 ## Peta file
