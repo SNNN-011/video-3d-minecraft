@@ -1,16 +1,8 @@
 import React from 'react';
 import {ThreeCanvas} from '@remotion/three';
 import {useCurrentFrame} from 'remotion';
+import {Box, Ground} from '../../core/voxels';
 import type {Bike} from './data';
-
-type V3 = [number, number, number];
-
-const Box: React.FC<{p: V3; s: V3; c: string; r?: V3; glow?: number; o?: number}> = ({p, s, c, r = [0, 0, 0], glow = 0, o = 1}) => (
-  <mesh position={p} rotation={r}>
-    <boxGeometry args={s} />
-    <meshStandardMaterial color={c} flatShading emissive={glow ? c : '#000000'} emissiveIntensity={glow} transparent={o < 1} opacity={o} />
-  </mesh>
-);
 
 const Wheel: React.FC<{x: number; spin: number}> = ({x, spin}) => (
   <group position={[x, 0.77, 0]} rotation={[0, 0, -spin]}>
@@ -51,22 +43,6 @@ export const VoxelBike: React.FC<{bike: Bike; spin: number}> = ({bike, spin}) =>
   );
 };
 
-const Ground: React.FC = () => (
-  <group>
-    {Array.from({length: 7}).flatMap((_, i) =>
-      Array.from({length: 5}).map((__, j) => {
-        const shade = ['#5aa83c', '#4f9a34', '#63b343'][(i * 7 + j * 13) % 3];
-        return (
-          <group key={`${i}-${j}`} position={[i - 3, 0, j - 2]}>
-            <Box p={[0, -0.06, 0]} s={[1, 0.12, 1]} c={shade} />
-            <Box p={[0, -0.34, 0]} s={[1, 0.44, 1]} c="#7a5230" />
-          </group>
-        );
-      }),
-    )}
-  </group>
-);
-
 export const BikeStage: React.FC<{bike: Bike; top: number; height: number; zoom?: number}> = ({bike, top, height, zoom = 1.1}) => {
   const f = useCurrentFrame();
   return (
@@ -75,7 +51,7 @@ export const BikeStage: React.FC<{bike: Bike; top: number; height: number; zoom?
         <ambientLight intensity={1.1} />
         <directionalLight position={[6, 10, 5]} intensity={2} />
         <group position={[0, -0.9, 0]} rotation={[0, 0.5 + f * 0.035, 0]}>
-          <Ground />
+          <Ground w={7} d={5} />
           <VoxelBike bike={bike} spin={f * 0.3} />
         </group>
       </ThreeCanvas>

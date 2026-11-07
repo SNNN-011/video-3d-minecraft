@@ -1,9 +1,10 @@
 import React from 'react';
 import {AbsoluteFill, Sequence} from 'remotion';
-import {SCENES, TOTAL_FRAMES} from './timeline';
+import {CUES, SCENES, TOTAL_FRAMES} from './timeline';
+import {CONFIG} from './config';
 import {BikeScene, Hook, Outro, Tax} from './scenes';
-import {FontLoader, SafeGuide, Sky} from './ui';
-import {Voice} from './Voice';
+import {FontLoader, SafeGuide, Sky} from '../../core/ui';
+import {Voice} from '../../core/Voice';
 
 const SHOW_SAFE_GUIDE = false; // true = tampilkan garis merah safe zone (buat ngecek aja, matiin pas render final)
 
@@ -15,10 +16,10 @@ export const Main: React.FC = () => (
     <Sky />
     {SCENES.map((s) => (
       <Sequence key={s.id} from={s.from} durationInFrames={s.dur}>
-        {s.key === 'hook' ? <Hook /> : s.key === 'bike' ? <BikeScene bike={s.bike!} /> : s.key === 'tax' ? <Tax /> : <Outro />}
+        {s.key === 'hook' ? <Hook /> : s.key === 'bike' ? <BikeScene bike={s.bike} /> : s.key === 'tax' ? <Tax /> : <Outro />}
       </Sequence>
     ))}
-    <Voice />
+    <Voice slug={CONFIG.slug} cues={CUES} />
     {/* Musik latar (opsional): taruh public/music.mp3 lalu uncomment + import Audio, staticFile
     <Audio src={staticFile('music.mp3')} volume={0.2} /> */}
     {SHOW_SAFE_GUIDE && <SafeGuide />}

@@ -1,20 +1,27 @@
-// Generate narasi TTS via OpenRouter (HeyGen Voice Turbo, PCM 44.1kHz mono) -> public/voice/*.wav
-// Plus hitung timing per kata buat subtitle -> src/voice-data.json
+// Generate narasi TTS via OpenRouter (HeyGen Voice Turbo, PCM 44.1kHz mono) -> public/voice/<slug>/*.wav
+// Plus hitung timing per kata buat subtitle -> src/episodes/<slug>/voice-data.json
 //
 // Pakai:
 //   set OPENROUTER_API_KEY=sk-or-...      (PowerShell: $env:OPENROUTER_API_KEY="sk-or-...")
-//   node scripts/gen-voice.mjs            (skip file yang sudah ada)
-//   node scripts/gen-voice.mjs --force    (generate ulang semua)
+//   node scripts/gen-voice.mjs <slug>            (skip file yang sudah ada)
+//   node scripts/gen-voice.mjs <slug> --force    (generate ulang semua)
+// <slug> = nama folder di src/episodes/ (mis. pajak-motor).
 import fs from 'node:fs';
 import path from 'node:path';
 
 const SR = 44100; // HeyGen Voice Turbo: 44.1 kHz mono PCM 16-bit LE
-const OUT_DIR = 'public/voice';
-const DATA_FILE = 'src/voice-data.json';
-const SCRIPT_FILE = 'src/voice.json';
+const force = process.argv.includes('--force');
+const slug = process.argv.slice(2).find((a) => !a.startsWith('--'));
+if (!slug) {
+  console.error('Slug episode belum diisi. Contoh: node scripts/gen-voice.mjs pajak-motor');
+  process.exit(1);
+}
+const EPISODE_DIR = `src/episodes/${slug}`;
+const OUT_DIR = `public/voice/${slug}`;
+const DATA_FILE = `${EPISODE_DIR}/voice-data.json`;
+const SCRIPT_FILE = `${EPISODE_DIR}/voice.json`;
 const API = 'https://openrouter.ai/api/v1/audio/speech';
 
-const force = process.argv.includes('--force');
 const script = JSON.parse(fs.readFileSync(SCRIPT_FILE, 'utf8'));
 const key = process.env.OPENROUTER_API_KEY;
 
@@ -106,7 +113,7 @@ const synth = async (line) => {
         Authorization: `Bearer ${key}`,
         'Content-Type': 'application/json',
         'HTTP-Referer': 'https://localhost',
-        'X-Title': 'pajak-motor',
+        'X-Title': `video-3d-minecraft/${slug}`,
       },
       body: JSON.stringify({
         model: script.model,

@@ -16,7 +16,7 @@ Baca berurutan:
 2. `STYLES.md` — palet, tipografi, copy, audio, motion.
 3. `AGENTS.md` — aturan ini.
 
-Lalu cek kondisi repo: apakah `src/voice-data.json` sinkron dengan `src/voice.json`, apakah ada perubahan user yang belum di-commit/di-render.
+Lalu cek kondisi repo: apakah `src/episodes/<slug>/voice-data.json` sinkron dengan `voice.json` episode itu, apakah ada perubahan user yang belum di-commit/di-render, dan apakah episode baru sudah terdaftar di `src/episodes/index.ts`.
 
 ## 2. Protokol koreksi (WAJIB)
 
@@ -60,7 +60,7 @@ Kalau ragu: kalau menyangkut **cara membuat**, ke `SKILL.md`; kalau menyangkut *
 2. **Dua kontrol sejenis wajib tampil sama.** Kalau berbeda, samakan yang menyimpang ke yang sudah mapan.
 3. **Angka harus bersumber.** Harga Indonesia = OTR resmi; luar negeri = MSRP + destination charge; kurs dicatat. Tanpa sumber, hapus klaimnya, jangan dikarang.
 4. **Angka di layar = angka di narasi.** Boleh beda format (kata vs `fmt()`), tidak boleh beda nilai.
-5. **`src/voice-data.json` tidak diedit tangan.** Hanya `scripts/gen-voice.mjs`.
+5. **`src/episodes/<slug>/voice-data.json` tidak diedit tangan.** Hanya `scripts/gen-voice.mjs`.
 6. **Timeline tidak diedit tangan.** `timeline.ts` menurunkan durasi dari audio.
 7. **Jangan simpan API key** di repo, naskah, komentar, atau output.
 8. **Jangan render final sebelum still lolos cek.**

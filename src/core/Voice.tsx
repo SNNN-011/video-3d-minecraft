@@ -1,9 +1,10 @@
-// Narasi TTS + subtitle. Audio per baris (public/voice/*.wav), subtitle ngikutin timing kata.
+// Narasi TTS + subtitle karaoke (generik, dipakai semua episode).
+// Audio per baris (public/voice/<slug>/*.wav), subtitle ngikutin timing kata dari voice-data.json.
 // Subtitle dipecah per potongan pendek (gaya caption short-video) biar tingginya tetap 1 baris
 // dan nggak nabrak konten scene di atasnya. Panel = komponen yang sama dengan panel harga.
 import React from 'react';
 import {AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
-import {CUES} from './timeline';
+import {Cue} from './timeline';
 import {Panel, SAFE, Txt} from './ui';
 
 const ACTIVE = '#ffe14d'; // kuning yang sama dipakai di scene
@@ -30,10 +31,10 @@ const chunks = (words: Word[]) => {
   return out;
 };
 
-export const Voice: React.FC = () => {
+export const Voice: React.FC<{slug: string; cues: Cue[]}> = ({slug, cues}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const cue = CUES.find((c) => f >= c.start && f < c.start + c.frames);
+  const cue = cues.find((c) => f >= c.start && f < c.start + c.frames);
   const ms = cue ? ((f - cue.start) / fps) * 1000 : 0;
   const fade = cue ? Math.min(1, (f - cue.start) / 2) : 0;
 
@@ -42,9 +43,9 @@ export const Voice: React.FC = () => {
 
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
-      {CUES.map((c) => (
+      {cues.map((c) => (
         <Sequence key={c.id} from={c.start} durationInFrames={c.frames} layout="none">
-          <Audio src={staticFile(`voice/${c.id}.wav`)} />
+          <Audio src={staticFile(`voice/${slug}/${c.id}.wav`)} />
         </Sequence>
       ))}
 

@@ -61,4 +61,12 @@ save('sad', cat(
   sweep(0.15, 392, 392, saw, () => 0.5), sweep(0.15, 370, 370, saw, () => 0.5), sweep(0.15, 349, 349, saw, () => 0.5),
   (() => { let ph = 0; return make(0.35, (t, p) => { ph += (TAU * (311 + sin(t * 40) * 6)) / SR; return saw(ph) * 0.5 * (1 - p * 0.5); }); })(),
 ));
+// ---- SFX tambahan buat video AI ----
+save('startup', cat(...[523, 659, 784].map((fr) => sweep(0.12, fr, fr, sin, (p) => Math.exp(-3 * p))), sweep(0.5, 1047, 1047, sin, (p) => Math.exp(-3 * p))));
+save('shutter', mix(make(0.04, () => noise() * 0.9), pad(0.09, make(0.05, () => noise() * 0.7))));
+save('magic', cat(...[1047, 1319, 1568, 2093, 2637].map((fr) => sweep(0.07, fr, fr, sin, (p) => Math.exp(-3 * p) * 0.8)), bell(3136, 0.4)));
+save('scan', sweep(0.3, 400, 1800, sq, (p) => Math.sin(Math.PI * p) * 0.6));
+save('machine', make(1.2, (t, p) => (sq(TAU * (Math.floor(t * 8) % 2 ? 90 : 70) * t) + 0.4 * noise()) * (0.6 + 0.4 * sin(TAU * 8 * t)) * Math.min(1, p * 10) * Math.min(1, (1 - p) * 8)));
+save('alarm', make(0.7, (t, p) => sin(TAU * (Math.floor(t * 5) % 2 ? 880 : 660) * t) * 0.8 * Math.min(1, (1 - p) * 6)));
+save('tada', cat(sweep(0.1, 523, 523, sq, () => 0.5), sweep(0.1, 659, 659, sq, () => 0.5), sweep(0.1, 784, 784, sq, () => 0.5), sweep(0.5, 1047, 1047, sq, (p) => Math.exp(-2.5 * p) * 0.5)));
 console.log('SFX jadi di public/sfx/ (semua volume dirata-ratakan)');

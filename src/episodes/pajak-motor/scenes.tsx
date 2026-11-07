@@ -2,7 +2,7 @@ import React from 'react';
 import {AbsoluteFill, Easing, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {BIKES, Bike, breakdown, fmt} from './data';
 import {cueEnd, cueStart} from './timeline';
-import {Panel, SAFE, Sfx, Txt, usePop} from './ui';
+import {Panel, SAFE, Sfx, Txt, usePop} from '../../core/ui';
 import {BikeStage} from './VoxelBike';
 
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;

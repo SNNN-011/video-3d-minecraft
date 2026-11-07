@@ -58,7 +58,7 @@ Komponen tumpukan pajak (urutan bawah→atas): `#3d7bff` harga luar negeri, `#ff
 
 ## 4. Komponen
 
-- **Panel** (`ui.tsx`): `background` default `#c6c6c6`, border 10px `#fff #555 #555 #fff`, outline 8px `#000`, padding `26px 30px`. Ini satu-satunya gaya panel; jangan bikin varian baru.
+- **Panel** (`core/ui.tsx`): `background` default `#c6c6c6`, border 10px `#fff #555 #555 #fff`, outline 8px `#000`, padding `26px 30px`. Ini satu-satunya gaya panel; jangan bikin varian baru.
 - **Txt**: selalu pakai komponen ini, jangan `<div>` dengan font manual.
 - **Sky**: gradient + awan putih bergerak (`f * 0.8–2.2`) + strip ground. Kecepatan awan per index, jangan diubah tanpa alasan.
 - **BikeStage**: `top`/`height`/`zoom` per scene; motor berputar `f * 0.035`, roda `f * 0.3`.
@@ -77,7 +77,7 @@ Posisi tetap yang dipakai:
 
 ## 6. Subtitle (karaoke)
 
-- Sumber teks: `voice-data.json` (`words` dengan `from`/`to` ms). Bukan dari `voice.json`.
+- Sumber teks: `src/episodes/<slug>/voice-data.json` (`words` dengan `from`/`to` ms). Bukan dari `voice.json`.
 - Pecah maks **17 karakter** atau **4 kata** per potongan, selalu **satu baris**.
 - Kata aktif: `#ffe14d`. Kata lain: `#fff`.
 - Panel subtitle: `Panel bg="#141414"`, padding `18px 24px`, `maxWidth: 900`, teks `size 40`.
@@ -151,7 +151,7 @@ Peta SFX per scene:
 
 **Don't**
 - Bikin komponen panel/tombol/gaya baru tanpa diminta.
-- Menaruh angka hardcode yang menduplikasi `data.ts`.
+- Menaruh angka hardcode yang menduplikasi `data.ts` episode.
 - Menambah font atau efek baru per episode.
 - Menurunkan volume narasi untuk "menyeimbangkan" SFX — turunkan SFX.
 - Menulis "lo"/"gw" di teks yang tampil atau di naskah.

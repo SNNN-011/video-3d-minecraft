@@ -1,11 +1,12 @@
 {
-  "name": "pajak-motor",
+  "name": "video-3d-minecraft",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generator video explainer voxel/pixel 1080x1920. Satu root, banyak episode di src/episodes/<slug>/.",
   "main": "index.js",
   "scripts": {
     "studio": "remotion studio",
-    "render": "remotion render PajakMotor out/pajak-motor.mp4",
+    "render": "remotion render PajakMotor out/pajak-motor.mp4 --timeout=60000",
+    "still": "remotion still PajakMotor out/still.png --timeout=60000",
     "sfx": "node scripts/gen-sfx.mjs",
     "voice": "node scripts/gen-voice.mjs",
     "voice:force": "node scripts/gen-voice.mjs --force"
