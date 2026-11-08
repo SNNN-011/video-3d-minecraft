@@ -25,7 +25,7 @@ export const usePop = (start: number, damping = 9) => {
   return spring({frame: f - start, fps, config: {damping, stiffness: 180}});
 };
 
-export const Sfx: React.FC<{name: string; at: number; volume?: number}> = ({name, at, volume = 0.3}) => (
+export const Sfx: React.FC<{name: string; at: number; volume?: number}> = ({name, at, volume = 0.2}) => (
   <Sequence from={at} layout="none">
     <Audio src={staticFile(`sfx/${name}.wav`)} volume={volume} />
   </Sequence>
@@ -71,8 +71,9 @@ export const Sky: React.FC = () => {
   );
 };
 
-// Safe zone Reels/TikTok: UI bawah (caption/tombol) makan ±400px, atas ±220px, sisi ±100px
-export const SAFE = {top: 220, bottom: 400, side: 100};
+// Safe zone Reels/TikTok: UI bawah (caption/tombol) makan ±400px, atas ±220px,
+// sisi ±120px (feed Reels suka zoom, margin 100px masih bisa kepotong).
+export const SAFE = {top: 220, bottom: 400, side: 120};
 export const SafeGuide: React.FC = () => (
   <AbsoluteFill style={{pointerEvents: 'none'}}>
     <div style={{position: 'absolute', left: SAFE.side, right: SAFE.side, top: SAFE.top, bottom: SAFE.bottom, border: '4px dashed rgba(255,0,0,.8)'}} />

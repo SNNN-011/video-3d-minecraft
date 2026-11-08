@@ -1,0 +1,1300 @@
+{
+  "generatedAt": "2026-11-08T06:21:17.759Z",
+  "model": "heygen/heygen-voice-1-turbo:free",
+  "voice": "bram",
+  "lines": [
+    {
+      "id": "s1-1",
+      "text": "Diskon lima puluh persen? Tunggu dulu.",
+      "ms": 2165,
+      "frames": 65,
+      "words": [
+        {
+          "w": "Diskon",
+          "from": 87,
+          "to": 380
+        },
+        {
+          "w": "lima",
+          "from": 380,
+          "to": 590
+        },
+        {
+          "w": "puluh",
+          "from": 590,
+          "to": 841
+        },
+        {
+          "w": "persen?",
+          "from": 841,
+          "to": 1344
+        },
+        {
+          "w": "Tunggu",
+          "from": 1344,
+          "to": 1637
+        },
+        {
+          "w": "dulu.",
+          "from": 1637,
+          "to": 2057
+        }
+      ]
+    },
+    {
+      "id": "s1-2",
+      "text": "Jangan-jangan harga aslinya baru dinaikin kemarin.",
+      "ms": 3141,
+      "frames": 95,
+      "words": [
+        {
+          "w": "Jangan-jangan",
+          "from": 90,
+          "to": 796
+        },
+        {
+          "w": "harga",
+          "from": 796,
+          "to": 1121
+        },
+        {
+          "w": "aslinya",
+          "from": 1121,
+          "to": 1556
+        },
+        {
+          "w": "baru",
+          "from": 1556,
+          "to": 1827
+        },
+        {
+          "w": "dinaikin",
+          "from": 1827,
+          "to": 2316
+        },
+        {
+          "w": "kemarin.",
+          "from": 2316,
+          "to": 3021
+        }
+      ]
+    },
+    {
+      "id": "s2-1",
+      "text": "Ini modus lama.",
+      "ms": 956,
+      "frames": 29,
+      "words": [
+        {
+          "w": "Ini",
+          "from": 38,
+          "to": 212
+        },
+        {
+          "w": "modus",
+          "from": 212,
+          "to": 473
+        },
+        {
+          "w": "lama.",
+          "from": 473,
+          "to": 909
+        }
+      ]
+    },
+    {
+      "id": "s2-2",
+      "text": "Harga dinaikin dulu, baru dicoret terus dikasih label diskon gede.",
+      "ms": 4150,
+      "frames": 125,
+      "words": [
+        {
+          "w": "Harga",
+          "from": 90,
+          "to": 416
+        },
+        {
+          "w": "dinaikin",
+          "from": 416,
+          "to": 905
+        },
+        {
+          "w": "dulu,",
+          "from": 905,
+          "to": 1313
+        },
+        {
+          "w": "baru",
+          "from": 1313,
+          "to": 1584
+        },
+        {
+          "w": "dicoret",
+          "from": 1584,
+          "to": 2019
+        },
+        {
+          "w": "terus",
+          "from": 2019,
+          "to": 2345
+        },
+        {
+          "w": "dikasih",
+          "from": 2345,
+          "to": 2780
+        },
+        {
+          "w": "label",
+          "from": 2780,
+          "to": 3106
+        },
+        {
+          "w": "diskon",
+          "from": 3106,
+          "to": 3486
+        },
+        {
+          "w": "gede.",
+          "from": 3486,
+          "to": 4030
+        }
+      ]
+    },
+    {
+      "id": "s2-3",
+      "text": "Contoh, harga normal satu juta, naik jadi dua juta.",
+      "ms": 3940,
+      "frames": 119,
+      "words": [
+        {
+          "w": "Contoh,",
+          "from": 90,
+          "to": 691
+        },
+        {
+          "w": "harga",
+          "from": 691,
+          "to": 1070
+        },
+        {
+          "w": "normal",
+          "from": 1070,
+          "to": 1513
+        },
+        {
+          "w": "satu",
+          "from": 1513,
+          "to": 1829
+        },
+        {
+          "w": "juta,",
+          "from": 1829,
+          "to": 2303
+        },
+        {
+          "w": "naik",
+          "from": 2303,
+          "to": 2619
+        },
+        {
+          "w": "jadi",
+          "from": 2619,
+          "to": 2935
+        },
+        {
+          "w": "dua",
+          "from": 2935,
+          "to": 3188
+        },
+        {
+          "w": "juta.",
+          "from": 3188,
+          "to": 3820
+        }
+      ]
+    },
+    {
+      "id": "s2-4",
+      "text": "Pas sebelas sebelas, dijual sembilan ratus sembilan puluh sembilan ribu.",
+      "ms": 4906,
+      "frames": 148,
+      "words": [
+        {
+          "w": "Pas",
+          "from": 90,
+          "to": 329
+        },
+        {
+          "w": "sebelas",
+          "from": 329,
+          "to": 808
+        },
+        {
+          "w": "sebelas,",
+          "from": 808,
+          "to": 1436
+        },
+        {
+          "w": "dijual",
+          "from": 1436,
+          "to": 1855
+        },
+        {
+          "w": "sembilan",
+          "from": 1855,
+          "to": 2393
+        },
+        {
+          "w": "ratus",
+          "from": 2393,
+          "to": 2752
+        },
+        {
+          "w": "sembilan",
+          "from": 2752,
+          "to": 3291
+        },
+        {
+          "w": "puluh",
+          "from": 3291,
+          "to": 3649
+        },
+        {
+          "w": "sembilan",
+          "from": 3649,
+          "to": 4188
+        },
+        {
+          "w": "ribu.",
+          "from": 4188,
+          "to": 4786
+        }
+      ]
+    },
+    {
+      "id": "s2-5",
+      "text": "Keliatannya diskon lima puluh persen, padahal diskon aslinya cuma seribu perak.",
+      "ms": 4418,
+      "frames": 133,
+      "words": [
+        {
+          "w": "Keliatannya",
+          "from": 90,
+          "to": 681
+        },
+        {
+          "w": "diskon",
+          "from": 681,
+          "to": 1025
+        },
+        {
+          "w": "lima",
+          "from": 1025,
+          "to": 1271
+        },
+        {
+          "w": "puluh",
+          "from": 1271,
+          "to": 1567
+        },
+        {
+          "w": "persen,",
+          "from": 1567,
+          "to": 2034
+        },
+        {
+          "w": "padahal",
+          "from": 2034,
+          "to": 2428
+        },
+        {
+          "w": "diskon",
+          "from": 2428,
+          "to": 2773
+        },
+        {
+          "w": "aslinya",
+          "from": 2773,
+          "to": 3166
+        },
+        {
+          "w": "cuma",
+          "from": 3166,
+          "to": 3412
+        },
+        {
+          "w": "seribu",
+          "from": 3412,
+          "to": 3757
+        },
+        {
+          "w": "perak.",
+          "from": 3757,
+          "to": 4298
+        }
+      ]
+    },
+    {
+      "id": "s3-1",
+      "text": "Trik kedua, timer mundur sama stok tinggal tiga.",
+      "ms": 3406,
+      "frames": 103,
+      "words": [
+        {
+          "w": "Trik",
+          "from": 90,
+          "to": 383
+        },
+        {
+          "w": "kedua,",
+          "from": 383,
+          "to": 882
+        },
+        {
+          "w": "timer",
+          "from": 882,
+          "to": 1234
+        },
+        {
+          "w": "mundur",
+          "from": 1234,
+          "to": 1644
+        },
+        {
+          "w": "sama",
+          "from": 1644,
+          "to": 1937
+        },
+        {
+          "w": "stok",
+          "from": 1937,
+          "to": 2230
+        },
+        {
+          "w": "tinggal",
+          "from": 2230,
+          "to": 2700
+        },
+        {
+          "w": "tiga.",
+          "from": 2700,
+          "to": 3286
+        }
+      ]
+    },
+    {
+      "id": "s3-2",
+      "text": "Kamu jadi panik, nalar nggak jalan.",
+      "ms": 2463,
+      "frames": 74,
+      "words": [
+        {
+          "w": "Kamu",
+          "from": 90,
+          "to": 361
+        },
+        {
+          "w": "jadi",
+          "from": 361,
+          "to": 633
+        },
+        {
+          "w": "panik,",
+          "from": 633,
+          "to": 1094
+        },
+        {
+          "w": "nalar",
+          "from": 1094,
+          "to": 1420
+        },
+        {
+          "w": "nggak",
+          "from": 1420,
+          "to": 1746
+        },
+        {
+          "w": "jalan.",
+          "from": 1746,
+          "to": 2343
+        }
+      ]
+    },
+    {
+      "id": "s3-3",
+      "text": "Kata analis Kaspersky, urgensi plus hasrat beli murah bikin penilaian jadi kabur.",
+      "ms": 5311,
+      "frames": 160,
+      "words": [
+        {
+          "w": "Kata",
+          "from": 90,
+          "to": 381
+        },
+        {
+          "w": "analis",
+          "from": 381,
+          "to": 790
+        },
+        {
+          "w": "Kaspersky,",
+          "from": 790,
+          "to": 1518
+        },
+        {
+          "w": "urgensi",
+          "from": 1518,
+          "to": 1985
+        },
+        {
+          "w": "plus",
+          "from": 1985,
+          "to": 2276
+        },
+        {
+          "w": "hasrat",
+          "from": 2276,
+          "to": 2684
+        },
+        {
+          "w": "beli",
+          "from": 2684,
+          "to": 2976
+        },
+        {
+          "w": "murah",
+          "from": 2976,
+          "to": 3325
+        },
+        {
+          "w": "bikin",
+          "from": 3325,
+          "to": 3675
+        },
+        {
+          "w": "penilaian",
+          "from": 3675,
+          "to": 4258
+        },
+        {
+          "w": "jadi",
+          "from": 4258,
+          "to": 4550
+        },
+        {
+          "w": "kabur.",
+          "from": 4550,
+          "to": 5191
+        }
+      ]
+    },
+    {
+      "id": "s3-4",
+      "text": "Ujungnya beli dulu, mikir belakangan.",
+      "ms": 2477,
+      "frames": 75,
+      "words": [
+        {
+          "w": "Ujungnya",
+          "from": 90,
+          "to": 559
+        },
+        {
+          "w": "beli",
+          "from": 559,
+          "to": 819
+        },
+        {
+          "w": "dulu,",
+          "from": 819,
+          "to": 1210
+        },
+        {
+          "w": "mikir",
+          "from": 1210,
+          "to": 1523
+        },
+        {
+          "w": "belakangan.",
+          "from": 1523,
+          "to": 2357
+        }
+      ]
+    },
+    {
+      "id": "s4-1",
+      "text": "Trik ketiga, lihat harga akhir, bukan labelnya.",
+      "ms": 3402,
+      "frames": 103,
+      "words": [
+        {
+          "w": "Trik",
+          "from": 90,
+          "to": 380
+        },
+        {
+          "w": "ketiga,",
+          "from": 380,
+          "to": 932
+        },
+        {
+          "w": "lihat",
+          "from": 932,
+          "to": 1280
+        },
+        {
+          "w": "harga",
+          "from": 1280,
+          "to": 1628
+        },
+        {
+          "w": "akhir,",
+          "from": 1628,
+          "to": 2121
+        },
+        {
+          "w": "bukan",
+          "from": 2121,
+          "to": 2470
+        },
+        {
+          "w": "labelnya.",
+          "from": 2470,
+          "to": 3282
+        }
+      ]
+    },
+    {
+      "id": "s4-2",
+      "text": "Toko A diskon lima puluh persen, tapi ada ongkir sama biaya admin.",
+      "ms": 4352,
+      "frames": 131,
+      "words": [
+        {
+          "w": "Toko",
+          "from": 90,
+          "to": 376
+        },
+        {
+          "w": "A",
+          "from": 376,
+          "to": 490
+        },
+        {
+          "w": "diskon",
+          "from": 490,
+          "to": 890
+        },
+        {
+          "w": "lima",
+          "from": 890,
+          "to": 1175
+        },
+        {
+          "w": "puluh",
+          "from": 1175,
+          "to": 1518
+        },
+        {
+          "w": "persen,",
+          "from": 1518,
+          "to": 2061
+        },
+        {
+          "w": "tapi",
+          "from": 2061,
+          "to": 2347
+        },
+        {
+          "w": "ada",
+          "from": 2347,
+          "to": 2575
+        },
+        {
+          "w": "ongkir",
+          "from": 2575,
+          "to": 2975
+        },
+        {
+          "w": "sama",
+          "from": 2975,
+          "to": 3261
+        },
+        {
+          "w": "biaya",
+          "from": 3261,
+          "to": 3603
+        },
+        {
+          "w": "admin.",
+          "from": 3603,
+          "to": 4232
+        }
+      ]
+    },
+    {
+      "id": "s4-3",
+      "text": "Toko B nggak diskon, tapi gratis ongkir.",
+      "ms": 2686,
+      "frames": 81,
+      "words": [
+        {
+          "w": "Toko",
+          "from": 90,
+          "to": 356
+        },
+        {
+          "w": "B",
+          "from": 356,
+          "to": 463
+        },
+        {
+          "w": "nggak",
+          "from": 463,
+          "to": 782
+        },
+        {
+          "w": "diskon,",
+          "from": 782,
+          "to": 1288
+        },
+        {
+          "w": "tapi",
+          "from": 1288,
+          "to": 1554
+        },
+        {
+          "w": "gratis",
+          "from": 1554,
+          "to": 1927
+        },
+        {
+          "w": "ongkir.",
+          "from": 1927,
+          "to": 2566
+        }
+      ]
+    },
+    {
+      "id": "s4-4",
+      "text": "Ujungnya toko B malah lebih murah dua puluh sembilan ribu. Ini contoh ya.",
+      "ms": 4486,
+      "frames": 135,
+      "words": [
+        {
+          "w": "Ujungnya",
+          "from": 90,
+          "to": 559
+        },
+        {
+          "w": "toko",
+          "from": 559,
+          "to": 820
+        },
+        {
+          "w": "B",
+          "from": 820,
+          "to": 924
+        },
+        {
+          "w": "malah",
+          "from": 924,
+          "to": 1237
+        },
+        {
+          "w": "lebih",
+          "from": 1237,
+          "to": 1550
+        },
+        {
+          "w": "murah",
+          "from": 1550,
+          "to": 1863
+        },
+        {
+          "w": "dua",
+          "from": 1863,
+          "to": 2071
+        },
+        {
+          "w": "puluh",
+          "from": 2071,
+          "to": 2384
+        },
+        {
+          "w": "sembilan",
+          "from": 2384,
+          "to": 2854
+        },
+        {
+          "w": "ribu.",
+          "from": 2854,
+          "to": 3375
+        },
+        {
+          "w": "Ini",
+          "from": 3375,
+          "to": 3584
+        },
+        {
+          "w": "contoh",
+          "from": 3584,
+          "to": 3949
+        },
+        {
+          "w": "ya.",
+          "from": 3949,
+          "to": 4366
+        }
+      ]
+    },
+    {
+      "id": "s5-1",
+      "text": "Perlu kamu tau, diskon palsu itu dilarang.",
+      "ms": 2846,
+      "frames": 86,
+      "words": [
+        {
+          "w": "Perlu",
+          "from": 90,
+          "to": 416
+        },
+        {
+          "w": "kamu",
+          "from": 416,
+          "to": 688
+        },
+        {
+          "w": "tau,",
+          "from": 688,
+          "to": 1041
+        },
+        {
+          "w": "diskon",
+          "from": 1041,
+          "to": 1422
+        },
+        {
+          "w": "palsu",
+          "from": 1422,
+          "to": 1748
+        },
+        {
+          "w": "itu",
+          "from": 1748,
+          "to": 1965
+        },
+        {
+          "w": "dilarang.",
+          "from": 1965,
+          "to": 2726
+        }
+      ]
+    },
+    {
+      "id": "s5-2",
+      "text": "Di UU Perlindungan Konsumen, ancamannya penjara maksimal lima tahun, atau denda maksimal dua miliar.",
+      "ms": 6500,
+      "frames": 196,
+      "words": [
+        {
+          "w": "Di",
+          "from": 90,
+          "to": 265
+        },
+        {
+          "w": "UU",
+          "from": 265,
+          "to": 439
+        },
+        {
+          "w": "Perlindungan",
+          "from": 439,
+          "to": 1197
+        },
+        {
+          "w": "Konsumen,",
+          "from": 1197,
+          "to": 1866
+        },
+        {
+          "w": "ancamannya",
+          "from": 1866,
+          "to": 2507
+        },
+        {
+          "w": "penjara",
+          "from": 2507,
+          "to": 2973
+        },
+        {
+          "w": "maksimal",
+          "from": 2973,
+          "to": 3497
+        },
+        {
+          "w": "lima",
+          "from": 3497,
+          "to": 3788
+        },
+        {
+          "w": "tahun,",
+          "from": 3788,
+          "to": 4283
+        },
+        {
+          "w": "atau",
+          "from": 4283,
+          "to": 4575
+        },
+        {
+          "w": "denda",
+          "from": 4575,
+          "to": 4924
+        },
+        {
+          "w": "maksimal",
+          "from": 4924,
+          "to": 5448
+        },
+        {
+          "w": "dua",
+          "from": 5448,
+          "to": 5681
+        },
+        {
+          "w": "miliar.",
+          "from": 5681,
+          "to": 6380
+        }
+      ]
+    },
+    {
+      "id": "s5-3",
+      "text": "Tapi nggak semua diskon bohong. Banyak yang asli.",
+      "ms": 2858,
+      "frames": 86,
+      "words": [
+        {
+          "w": "Tapi",
+          "from": 90,
+          "to": 318
+        },
+        {
+          "w": "nggak",
+          "from": 318,
+          "to": 592
+        },
+        {
+          "w": "semua",
+          "from": 592,
+          "to": 866
+        },
+        {
+          "w": "diskon",
+          "from": 866,
+          "to": 1186
+        },
+        {
+          "w": "bohong.",
+          "from": 1186,
+          "to": 1734
+        },
+        {
+          "w": "Banyak",
+          "from": 1734,
+          "to": 2053
+        },
+        {
+          "w": "yang",
+          "from": 2053,
+          "to": 2282
+        },
+        {
+          "w": "asli.",
+          "from": 2282,
+          "to": 2738
+        }
+      ]
+    },
+    {
+      "id": "s5-4",
+      "text": "Cek riwayat harga, bandingin beberapa toko, hitung harga akhir, dan beli yang emang kamu butuh.",
+      "ms": 6199,
+      "frames": 186,
+      "words": [
+        {
+          "w": "Cek",
+          "from": 90,
+          "to": 319
+        },
+        {
+          "w": "riwayat",
+          "from": 319,
+          "to": 778
+        },
+        {
+          "w": "harga,",
+          "from": 778,
+          "to": 1265
+        },
+        {
+          "w": "bandingin",
+          "from": 1265,
+          "to": 1838
+        },
+        {
+          "w": "beberapa",
+          "from": 1838,
+          "to": 2354
+        },
+        {
+          "w": "toko,",
+          "from": 2354,
+          "to": 2784
+        },
+        {
+          "w": "hitung",
+          "from": 2784,
+          "to": 3185
+        },
+        {
+          "w": "harga",
+          "from": 3185,
+          "to": 3529
+        },
+        {
+          "w": "akhir,",
+          "from": 3529,
+          "to": 4016
+        },
+        {
+          "w": "dan",
+          "from": 4016,
+          "to": 4245
+        },
+        {
+          "w": "beli",
+          "from": 4245,
+          "to": 4532
+        },
+        {
+          "w": "yang",
+          "from": 4532,
+          "to": 4818
+        },
+        {
+          "w": "emang",
+          "from": 4818,
+          "to": 5162
+        },
+        {
+          "w": "kamu",
+          "from": 5162,
+          "to": 5449
+        },
+        {
+          "w": "butuh.",
+          "from": 5449,
+          "to": 6079
+        }
+      ]
+    },
+    {
+      "id": "s6-1",
+      "text": "Terakhir, awas link palsu.",
+      "ms": 2042,
+      "frames": 62,
+      "words": [
+        {
+          "w": "Terakhir,",
+          "from": 82,
+          "to": 739
+        },
+        {
+          "w": "awas",
+          "from": 739,
+          "to": 1025
+        },
+        {
+          "w": "link",
+          "from": 1025,
+          "to": 1311
+        },
+        {
+          "w": "palsu.",
+          "from": 1311,
+          "to": 1940
+        }
+      ]
+    },
+    {
+      "id": "s6-2",
+      "text": "Kaspersky bilang, penipuan naik pas sebelas sebelas.",
+      "ms": 3482,
+      "frames": 105,
+      "words": [
+        {
+          "w": "Kaspersky",
+          "from": 90,
+          "to": 649
+        },
+        {
+          "w": "bilang,",
+          "from": 649,
+          "to": 1181
+        },
+        {
+          "w": "penipuan",
+          "from": 1181,
+          "to": 1684
+        },
+        {
+          "w": "naik",
+          "from": 1684,
+          "to": 1964
+        },
+        {
+          "w": "pas",
+          "from": 1964,
+          "to": 2187
+        },
+        {
+          "w": "sebelas",
+          "from": 2187,
+          "to": 2635
+        },
+        {
+          "w": "sebelas.",
+          "from": 2635,
+          "to": 3362
+        }
+      ]
+    },
+    {
+      "id": "s6-3",
+      "text": "Jangan klik link dari iklan atau email yang nggak kamu minta, dan pakai kartu terpisah buat belanja online.",
+      "ms": 5975,
+      "frames": 180,
+      "words": [
+        {
+          "w": "Jangan",
+          "from": 90,
+          "to": 446
+        },
+        {
+          "w": "klik",
+          "from": 446,
+          "to": 700
+        },
+        {
+          "w": "link",
+          "from": 700,
+          "to": 954
+        },
+        {
+          "w": "dari",
+          "from": 954,
+          "to": 1207
+        },
+        {
+          "w": "iklan",
+          "from": 1207,
+          "to": 1512
+        },
+        {
+          "w": "atau",
+          "from": 1512,
+          "to": 1766
+        },
+        {
+          "w": "email",
+          "from": 1766,
+          "to": 2071
+        },
+        {
+          "w": "yang",
+          "from": 2071,
+          "to": 2325
+        },
+        {
+          "w": "nggak",
+          "from": 2325,
+          "to": 2630
+        },
+        {
+          "w": "kamu",
+          "from": 2630,
+          "to": 2884
+        },
+        {
+          "w": "minta,",
+          "from": 2884,
+          "to": 3315
+        },
+        {
+          "w": "dan",
+          "from": 3315,
+          "to": 3519
+        },
+        {
+          "w": "pakai",
+          "from": 3519,
+          "to": 3823
+        },
+        {
+          "w": "kartu",
+          "from": 3823,
+          "to": 4128
+        },
+        {
+          "w": "terpisah",
+          "from": 4128,
+          "to": 4585
+        },
+        {
+          "w": "buat",
+          "from": 4585,
+          "to": 4839
+        },
+        {
+          "w": "belanja",
+          "from": 4839,
+          "to": 5246
+        },
+        {
+          "w": "online.",
+          "from": 5246,
+          "to": 5855
+        }
+      ]
+    },
+    {
+      "id": "s6-4",
+      "text": "Kamu biasanya kena jebakan yang mana?",
+      "ms": 1990,
+      "frames": 60,
+      "words": [
+        {
+          "w": "Kamu",
+          "from": 80,
+          "to": 295
+        },
+        {
+          "w": "biasanya",
+          "from": 295,
+          "to": 683
+        },
+        {
+          "w": "kena",
+          "from": 683,
+          "to": 899
+        },
+        {
+          "w": "jebakan",
+          "from": 899,
+          "to": 1243
+        },
+        {
+          "w": "yang",
+          "from": 1243,
+          "to": 1459
+        },
+        {
+          "w": "mana?",
+          "from": 1459,
+          "to": 1890
+        }
+      ]
+    },
+    {
+      "id": "s6-5",
+      "text": "Komen di bawah,",
+      "ms": 873,
+      "frames": 27,
+      "words": [
+        {
+          "w": "Komen",
+          "from": 35,
+          "to": 307
+        },
+        {
+          "w": "di",
+          "from": 307,
+          "to": 443
+        },
+        {
+          "w": "bawah,",
+          "from": 443,
+          "to": 829
+        }
+      ]
+    },
+    {
+      "id": "s6-6",
+      "text": "dan save sebelum sebelas sebelas.",
+      "ms": 2696,
+      "frames": 81,
+      "words": [
+        {
+          "w": "dan",
+          "from": 90,
+          "to": 352
+        },
+        {
+          "w": "save",
+          "from": 352,
+          "to": 679
+        },
+        {
+          "w": "sebelum",
+          "from": 679,
+          "to": 1202
+        },
+        {
+          "w": "sebelas",
+          "from": 1202,
+          "to": 1726
+        },
+        {
+          "w": "sebelas.",
+          "from": 1726,
+          "to": 2576
+        }
+      ]
+    },
+    {
+      "id": "s6-7",
+      "text": "Follow buat tips anti zonk.",
+      "ms": 2200,
+      "frames": 67,
+      "words": [
+        {
+          "w": "Follow",
+          "from": 88,
+          "to": 526
+        },
+        {
+          "w": "buat",
+          "from": 526,
+          "to": 839
+        },
+        {
+          "w": "tips",
+          "from": 839,
+          "to": 1152
+        },
+        {
+          "w": "anti",
+          "from": 1152,
+          "to": 1464
+        },
+        {
+          "w": "zonk.",
+          "from": 1464,
+          "to": 2090
+        }
+      ]
+    }
+  ]
+}

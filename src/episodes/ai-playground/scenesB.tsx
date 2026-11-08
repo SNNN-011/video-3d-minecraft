@@ -46,7 +46,7 @@ export const S4: React.FC = () => {
       </div>
       <Stage top={500} height={880} pos={pos} look={look}>
         <Ground w={15} d={9} />
-        <group position={[-3.6, 0, 1]} rotation={[0, 0.6, 0]}><Person t={f} arm={interpolate(f, [28, 45], [0, 1.0], C)} /></group>
+        <group position={[-3.0, 0, 1]} rotation={[0, 0.6, 0]}><Person t={f} arm={interpolate(f, [28, 45], [0, 1.0], C)} /></group>
         <group position={[0.8, 0, 0]}><Machine t={f} active={active} /></group>
         {[[-2.9, 3.5, 0.15], [-2.6, 3.95, 0.25], [-2.2, 4.5, 0.35]].map(([x, y, sz], i) => f >= 20 + i * 6 && f < 112 && <Box key={i} p={[x, y, 1]} s={[sz, sz, sz]} c="#fff" />)}
         {bub && (
@@ -148,7 +148,7 @@ export const S5: React.FC = () => {
 };
 
 /* ---------- SCENE 6: ENDING (10 detik) ---------- */
-const ITEMS = [{x: -2.5, art: WORK_ICON, label: 'WORK', left: 98}, {x: 0, art: LEARN_ICON, label: 'LEARN', left: 420}, {x: 2.5, art: PLAY_ICON, label: 'PLAY', left: 742}];
+const ITEMS = [{x: -2.5, art: WORK_ICON, label: 'WORK', left: 120}, {x: 0, art: LEARN_ICON, label: 'LEARN', left: 420}, {x: 2.5, art: PLAY_ICON, label: 'PLAY', left: 720}];
 const GAL = [CREEPER, ANIME, LANDSCAPE, CAT_GALAXY, CINEMA, SELFIE];
 
 export const S6: React.FC = () => {

@@ -1,0 +1,38 @@
+{
+  "model": "heygen/heygen-voice-1-turbo:free",
+  "voice": "bram",
+  "language": "id",
+  "lines": [
+    { "id": "s1-1", "scene": "s1", "at": 4, "text": "Diskon lima puluh persen? Tunggu dulu." },
+    { "id": "s1-2", "scene": "s1", "at": 60, "text": "Jangan-jangan harga aslinya baru dinaikin kemarin." },
+
+    { "id": "s2-1", "scene": "s2", "at": 4, "text": "Ini modus lama." },
+    { "id": "s2-2", "scene": "s2", "at": 50, "text": "Harga dinaikin dulu, baru dicoret terus dikasih label diskon gede." },
+    { "id": "s2-3", "scene": "s2", "at": 160, "text": "Contoh, harga normal satu juta, naik jadi dua juta." },
+    { "id": "s2-4", "scene": "s2", "at": 260, "text": "Pas sebelas sebelas, dijual sembilan ratus sembilan puluh sembilan ribu." },
+    { "id": "s2-5", "scene": "s2", "at": 380, "text": "Keliatannya diskon lima puluh persen, padahal diskon aslinya cuma seribu perak." },
+
+    { "id": "s3-1", "scene": "s3", "at": 4, "text": "Trik kedua, timer mundur sama stok tinggal tiga." },
+    { "id": "s3-2", "scene": "s3", "at": 100, "text": "Kamu jadi panik, nalar nggak jalan." },
+    { "id": "s3-3", "scene": "s3", "at": 180, "text": "Kata analis Kaspersky, urgensi plus hasrat beli murah bikin penilaian jadi kabur." },
+    { "id": "s3-4", "scene": "s3", "at": 300, "text": "Ujungnya beli dulu, mikir belakangan." },
+
+    { "id": "s4-1", "scene": "s4", "at": 4, "text": "Trik ketiga, lihat harga akhir, bukan labelnya." },
+    { "id": "s4-2", "scene": "s4", "at": 90, "text": "Toko A diskon lima puluh persen, tapi ada ongkir sama biaya admin." },
+    { "id": "s4-3", "scene": "s4", "at": 200, "text": "Toko B nggak diskon, tapi gratis ongkir." },
+    { "id": "s4-4", "scene": "s4", "at": 290, "text": "Ujungnya toko B malah lebih murah dua puluh sembilan ribu. Ini contoh ya." },
+
+    { "id": "s5-1", "scene": "s5", "at": 4, "text": "Perlu kamu tau, diskon palsu itu dilarang." },
+    { "id": "s5-2", "scene": "s5", "at": 80, "text": "Di UU Perlindungan Konsumen, ancamannya penjara maksimal lima tahun, atau denda maksimal dua miliar." },
+    { "id": "s5-3", "scene": "s5", "at": 220, "text": "Tapi nggak semua diskon bohong. Banyak yang asli." },
+    { "id": "s5-4", "scene": "s5", "at": 310, "text": "Cek riwayat harga, bandingin beberapa toko, hitung harga akhir, dan beli yang emang kamu butuh." },
+
+    { "id": "s6-1", "scene": "s6", "at": 4, "text": "Terakhir, awas link palsu." },
+    { "id": "s6-2", "scene": "s6", "at": 60, "text": "Kaspersky bilang, penipuan naik pas sebelas sebelas." },
+    { "id": "s6-3", "scene": "s6", "at": 140, "text": "Jangan klik link dari iklan atau email yang nggak kamu minta, dan pakai kartu terpisah buat belanja online." },
+    { "id": "s6-4", "scene": "s6", "at": 280, "text": "Kamu biasanya kena jebakan yang mana?" },
+    { "id": "s6-5", "scene": "s6", "at": 350, "text": "Komen di bawah," },
+    { "id": "s6-6", "scene": "s6", "at": 390, "text": "dan save sebelum sebelas sebelas." },
+    { "id": "s6-7", "scene": "s6", "at": 440, "text": "Follow buat tips anti zonk." }
+  ]
+}

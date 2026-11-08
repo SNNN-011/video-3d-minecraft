@@ -45,7 +45,7 @@ export const Voice: React.FC<{slug: string; cues: Cue[]}> = ({slug, cues}) => {
     <AbsoluteFill style={{pointerEvents: 'none'}}>
       {cues.map((c) => (
         <Sequence key={c.id} from={c.start} durationInFrames={c.frames} layout="none">
-          <Audio src={staticFile(`voice/${slug}/${c.id}.wav`)} />
+          <Audio src={staticFile(`voice/${slug}/${c.id}.wav`)} volume={1} />
         </Sequence>
       ))}
 

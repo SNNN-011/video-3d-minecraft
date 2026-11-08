@@ -13,6 +13,8 @@ Panduan kerja teknis. Aturan gaya ada di `STYLES.md`, aturan kerja agen ada di `
 - Satu repo = banyak episode. Tiap episode punya komposisi sendiri, dirender dari root yang sama.
 - Episode aktif: `PajakMotor` → `out/pajak-motor.mp4` (73,63 detik, 2209 frame) — 4 motor, hitungan pajak, outro CTA.
 - Episode aktif tanpa narasi: `AiPlayground` → `out/ai-playground.mp4` (75 detik, 2250 frame) — timing masih hardcode, TTS menyusul.
+- Episode bernarasi (HeyGen bram): `Diskon1111` → `out/diskon-1111.mp4` (97,1 detik, 2913 frame) — 26 cue, subtitle karaoke.
+- Episode baru sejak refactor tidak butuh `npm install`: satu `node_modules` di root dipakai semua episode.
 - Semua audio dan subtitle di-generate, bukan dicari di internet.
 
 ## Peta file
@@ -127,7 +129,7 @@ Target: H.264 + AAC, 1080x1920, 30/1, durasi ≈ `TOTAL_FRAMES / 30`.
 1. **Timeline tidak diedit tangan.** Durasi scene diturunkan dari `voice-data.json`; kalau narasi panjang, scene molor otomatis.
 2. **Satu baris narasi = satu cue.** Visual yang muncul tanpa cue pasti tidak sinkron.
 3. **Font lokal, bukan Google Fonts.** `loadFont()` dari `@remotion/google-fonts` bikin render timeout saat koneksi putus. Pakai `FontLoader` + `public/fonts/`.
-4. **Volume:** SFX default `0.3`, narasi dinormalisasi `0.98` oleh `gen-voice.mjs`. Jangan kembalikan SFX ke `1`.
+4. **Volume:** SFX default `0.2`, narasi dinormalisasi `0.98` (`gen-voice.mjs`) dan diputar `volume 1` (`Voice.tsx`). Jangan kembalikan SFX ke `1`.
 5. **`voice-data.json` bebas BOM** dan hanya ditulis script.
 6. **Angka tampil ≠ angka narasi** hanya boleh beda format (kata vs `fmt()`), nilainya wajib sama.
 7. **Jangan simpan API key** di repo, naskah, atau commit.
@@ -173,5 +175,7 @@ Target: H.264 + AAC, 1080x1920, 30/1, durasi ≈ `TOTAL_FRAMES / 30`.
 - 2026-11-08 — `Box`/`Ground` didefinisikan dua kali (VoxelBike dan voxels) → satu sumber di `src/core/voxels.tsx`, episode mengimpor dari sana.
 - 2026-11-08 — Render gagal timeout font karena browser headless tidak bisa akses `fonts.gstatic.com` → font di-self-host (`public/fonts/`) + `FontLoader` dengan `delayRender`, jangan pakai `loadFont()`.
 - 2026-11-08 — `npm run voice` gagal `429 hook-1` → free tier OpenRouter 50 request/hari (bukan kuota habis). Cek `/api/v1/credits` + header `x-ratelimit-*`, reset 00:00 UTC.
-- 2026-11-08 — TTS terasa kecil → SFX default `1` menenggelamkan narasi → default `0.3` + normalisasi WAV narasi ke peak `0,98` (sekarang otomatis di `gen-voice.mjs`).
+- 2026-11-08 — TTS terasa kecil → SFX default `1` menenggelamkan narasi → default `0.2` + narasi diputar `volume 1` (peak `0,98` otomatis di `gen-voice.mjs`).
+- 2026-11-08 — `gen-voice.mjs` gagal `429` padahal retry 4x → bukan rate per menit, tapi kuota free tier habis (63/50 request hari itu). Cek `GET /api/v1/key` → `free_model_daily_requests`; reset 00:00 UTC.
+- 2026-11-08 — Narasi Diskon1111 (26 cue) membuat durasi 97,1 detik, bukan 60 detik → durasi ikut narasi (aturan repo), `min` scene hanya jaring pengaman; jangan paksa 60 detik dengan memotong audio.
 - 2026-11-08 — Harga di video lama salah → harga Indonesia wajib OTR resmi, harga luar negeri MSRP + destination charge, kurs dicatat di komentar `data.ts`.

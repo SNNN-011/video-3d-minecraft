@@ -62,11 +62,11 @@ Komponen tumpukan pajak (urutan bawah→atas): `#3d7bff` harga luar negeri, `#ff
 - **Txt**: selalu pakai komponen ini, jangan `<div>` dengan font manual.
 - **Sky**: gradient + awan putih bergerak (`f * 0.8–2.2`) + strip ground. Kecepatan awan per index, jangan diubah tanpa alasan.
 - **BikeStage**: `top`/`height`/`zoom` per scene; motor berputar `f * 0.035`, roda `f * 0.3`.
-- **Sfx**: default volume `0.3`. Butuh lebih pelan → turunkan default, bukan menambah `volume` di tiap pemanggilan.
+- **Sfx**: default volume `0.2`. Butuh lebih pelan → turunkan default, bukan menambah `volume` di tiap pemanggilan.
 
 ## 5. Safe zone
 
-`SAFE = {top: 220, bottom: 400, side: 100}` — UI platform (caption/tombol) memakan area bawah ±400 px dan atas ±220 px. Jangan menaruh teks penting di luar area ini. `SHOW_SAFE_GUIDE` hanya untuk debug.
+`SAFE = {top: 220, bottom: 400, side: 120}` — UI platform (caption/tombol) memakan area bawah ±400 px dan atas ±220 px; feed Reels melakukan zoom, jadi sisi minimal 120 px (~11%). Jangan menaruh teks penting di luar area ini. `SHOW_SAFE_GUIDE` hanya untuk debug.
 
 Posisi tetap yang dipakai:
 - Judul scene: `top: SAFE.top`
@@ -127,8 +127,8 @@ Urutan motor: yang selisihnya paling dramatis di depan (`BIKES[0]` = hook).
 | Elemen | Aturan |
 |---|---|
 | TTS | `heygen/heygen-voice-1-turbo:free`, voice `bram`, `language: id`, PCM 44,1 kHz mono |
-| Level narasi | Peak dinormalisasi `0,98` (otomatis di `gen-voice.mjs`) |
-| Level SFX | File di-normalisasi RMS `0,2`; diputar pada `volume 0.3` |
+| Level narasi | Peak dinormalisasi `0,98`, diputar pada `volume 1` (Voice.tsx) |
+| Level SFX | File di-normalisasi RMS `0,2`; diputar pada `volume 0.2` |
 | Hasil campuran | mean ≈ −19,7 dB, peak ≈ −2,0 dB; narasi ±8–10 dB di atas SFX |
 | Trim | Silence awal/akhir dipotong (`padStart 0,04s`, `padEnd 0,12s`) |
 
@@ -162,3 +162,5 @@ Peta SFX per scene:
 - 2026-11-08 — Header hook menulis "R1" hardcode padahal motor pertama bisa berganti → pakai `BIKES[0].model`.
 - 2026-11-08 — Disclaimer menulis "hitungan R1" padahal scene pajak memakai `BIKES[0]` (S1000RR) → disclaimer harus mengikuti motor yang dihitung.
 - 2026-11-08 — Volume SFX `1` menenggelamkan narasi → default `0.3`, narasi peak `0,98`.
+- 2026-11-08 — Narasi masih kalah oleh SFX di episode Diskon1111 → SFX default `0.2`, narasi diputar `volume 1`; rasio narasi ±12 dB di atas SFX.
+- 2026-11-08 — Teks/objek mepet tepi dan berisiko kepotong saat Reels zoom → `SAFE.side` 100 → 120 px, label kolom AI playground digeser ke 120/420/720, karakter scene 4 digeser dari x `-3.6` ke `-3.0`.
