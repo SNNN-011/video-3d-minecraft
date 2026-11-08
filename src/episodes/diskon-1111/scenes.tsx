@@ -329,8 +329,8 @@ export const S6: React.FC = () => {
           <Stage top={520} height={880} pos={[0, 3, 12]} look={[0, 1.8, 0]}>
             <Ground w={9} d={4} />
             <group scale={1.3}><Person t={f} arm={0.55 + 0.45 * Math.sin(f * 0.3)} shirt="#00a8a8" /></group>
-            <group position={[-2.8, 0, 0.5]}><Chest open={1} /><group position={[0, 0.8, 0]}><Emeralds n={9} /></group></group>
-            <group position={[2.8, 0, 0.5]}><Chest open={1} /><group position={[0, 0.8, 0]}><Emeralds n={9} /></group></group>
+            <group position={[-2.0, 0, 0.5]}><Chest open={1} /><group position={[0, 0.8, 0]}><Emeralds n={9} /></group></group>
+            <group position={[2.0, 0, 0.5]}><Chest open={1} /><group position={[0, 0.8, 0]}><Emeralds n={9} /></group></group>
             {f >= t4 + 5 && Array.from({length: 24}).map((_, i) => {
               const t = (f - t4 - 5) / 30, vx = (hash(i + 1) - 0.5) * 6, vy = 4 + hash(i + 40) * 4, vz = (hash(i + 80) - 0.3) * 3;
               return <Box key={i} p={[vx * t * 0.5, 2.2 + vy * t - 5 * t * t, vz * t * 0.5]} s={[0.18, 0.18, 0.18]} c={['#ff4d9e', '#ffe14d', '#4dff88', '#6be6ff'][i % 4]} glow={0.6} />;
