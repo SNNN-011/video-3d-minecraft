@@ -51,15 +51,15 @@ export const S1: React.FC = () => {
           <Box p={[0, 5.3, 1.4]} s={[3.6, 0.18, 0.1]} c="#d50000" r={[0, 0, -0.3]} />
         </>}
         {f >= t1 + 30 && <Tag3D p={[0, 4.1, 1.2]} c="#b9f6ca" />}
-        {f >= t1 + 30 && <Box p={[2.2, 4.4, 1.0]} s={[1.6, 1.6, 0.15]} c="#ff1744" r={[0, 0, Math.PI / 4]} />}
-        <group position={[-2.9, 0, 2.2]}><Person t={f} arm={twist ? 0 : 0.9} /></group>
+        {f >= t1 + 30 && <Box p={[1.9, 4.4, 1.0]} s={[1.6, 1.6, 0.15]} c="#ff1744" r={[0, 0, Math.PI / 4]} />}
+        <group position={[-1.7, 0, 2.2]}><Person t={f} arm={twist ? 0 : 0.9} /></group>
       </Stage>
       <L p={P([0, 5.3, 1.35])}>
         {!twist ? <Txt size={30} color="#222" style={plain}>Rp2.000.000</Txt>
           : <div style={{transform: `scale(${h2})`}}><Txt size={24} color="#222" style={plain}>KEMARIN:</Txt><Txt size={28} color="#222" style={plain}>Rp1.000.000</Txt></div>}
       </L>
       {f >= t1 + 30 && <L p={P([0, 4.1, 1.35])} s={b}><Txt size={36} color="#1b5e20" style={plain}>Rp999.000</Txt></L>}
-      {f >= t1 + 30 && <L p={P([2.2, 4.4, 1.2])} s={s}><Txt size={30}>-50%</Txt></L>}
+      {f >= t1 + 30 && <L p={P([1.9, 4.4, 1.2])} s={s}><Txt size={30}>-50%</Txt></L>}
       {f >= t2 + 13 && <div style={{position: 'absolute', top: 1340, left: S, right: S}}><Txt size={28}>Diskon dari harga yang baru dinaikin? 💀</Txt></div>}
       <Note>*angka ilustrasi, tapi modus ini nyata</Note>
     </AbsoluteFill>
@@ -93,21 +93,21 @@ export const S2: React.FC = () => {
           const hh = Math.max(0.01, d.v * 1.6 * g);
           return (
             <React.Fragment key={i}>
-              <Box p={[(i - 2) * 1.2, hh / 2, 0]} s={[0.9, hh, 0.9]} c={d.c} glow={i === 4 ? 0.4 : 0} />
-              {i === 4 && f >= t4 && <Box p={[(i - 2) * 1.2, 1.6, 0]} s={[0.96, 3.2, 0.96]} c="#e53935" o={0.3} />}
+              <Box p={[(i - 2) * 1.05, hh / 2, 0]} s={[0.9, hh, 0.9]} c={d.c} glow={i === 4 ? 0.4 : 0} />
+              {i === 4 && f >= t4 && <Box p={[(i - 2) * 1.05, 1.6, 0]} s={[0.96, 3.2, 0.96]} c="#e53935" o={0.3} />}
             </React.Fragment>
           );
         })}
       </Stage>
       {DAYS.map((d, i) => f >= barAt(i) + 10 && (
         <React.Fragment key={i}>
-          <L p={P([(i - 2) * 1.2, d.v * 1.6 + 0.55, 0])}><Txt size={26} color={d.t}>{d.l}</Txt></L>
-          <L p={P([(i - 2) * 1.2, -0.45, 0.9])}><Txt size={26}>{d.d}</Txt></L>
+          <L p={P([(i - 2) * 1.05, d.v * 1.6 + 0.55, 0])}><Txt size={26} color={d.t}>{d.l}</Txt></L>
+          <L p={P([(i - 2) * 1.05, -0.45, 0.9])}><Txt size={26}>{d.d}</Txt></L>
         </React.Fragment>
       ))}
-      {f >= t4 + 5 && <L p={P([2.4, 3.75, 0])}><Txt size={26} color="#ff8a80" style={{textDecoration: 'line-through'}}>2 jt</Txt></L>}
+      {f >= t4 + 5 && <L p={P([2.1, 3.75, 0])}><Txt size={26} color="#ff8a80" style={{textDecoration: 'line-through'}}>2 jt</Txt></L>}
       {f >= t2 && <L p={P([-0.6, 4.0, 0])} s={nai}><Txt size={36} color="#ff4747">NAIK!</Txt></L>}
-      {f >= t5 && <L p={P([2.4, 4.5, 0])} s={st}><Txt size={34} color="#ffe14d">-50%!</Txt></L>}
+      {f >= t5 && <L p={P([2.1, 4.5, 0])} s={st}><Txt size={34} color="#ffe14d">-50%!</Txt></L>}
       {f >= t5 + 10 && (
         <Panel bg="#b33" style={{position: 'absolute', top: 1240, left: S, right: S, padding: '18px 24px', transform: `scale(${tw})`}}>
           <Txt size={28} style={plain}>DISKON ASLINYA CUMA</Txt>
@@ -146,16 +146,16 @@ export const S3: React.FC = () => {
           const y = 1.3 + vy * et - 6 * et * et;
           return y > 0 ? <Box key={k} p={[vx * et * 0.6, y, vz * et * 0.6]} s={[0.3, 0.3, 0.3]} c={['#ff1744', '#ff9100', '#ffea00'][k % 3]} glow={0.8} /> : null;
         })}
-        {f >= t1 + 30 && <Tag3D p={[2.2, 3.0, 1.0]} s={[2.2, 0.9, 0.2]} c="#ffcdd2" />}
+        {f >= t1 + 30 && <Tag3D p={[1.8, 3.0, 1.0]} s={[2.2, 0.9, 0.2]} c="#ffcdd2" />}
         {boom && <group position={[0, 0, 1.2]}><Cart n={Math.floor((f - t4 - 10) / 6)} /></group>}
-        <group position={[-2.9, 0, 1.6]}><Person t={f} arm={f >= t3 ? 1.1 : 0} /></group>
+        <group position={[-1.6, 0, 1.6]}><Person t={f} arm={f >= t3 ? 1.1 : 0} /></group>
       </Stage>
       {f >= t1 && !boom && (
         <L p={P([0, 4.6, 0])}>
           <Panel bg="#111" style={{padding: '10px 22px'}}><Txt size={64} color={left <= 2 ? '#ff4747' : '#ffe14d'}>00:0{left}</Txt></Panel>
         </L>
       )}
-      {f >= t1 + 30 && <L p={P([2.2, 3.0, 1.2])} s={pp}><Txt size={26} color="#b71c1c" style={plain}>SISA {stock}!</Txt></L>}
+      {f >= t1 + 30 && <L p={P([1.8, 3.0, 1.2])} s={pp}><Txt size={26} color="#b71c1c" style={plain}>SISA {stock}!</Txt></L>}
       {f >= t3 && (
         <div style={{position: 'absolute', top: 1180, left: S, right: S, transform: `scale(${pn})`}}>
           <Panel style={{padding: '16px 22px'}}>
